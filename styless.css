@@ -1,0 +1,48 @@
+body {
+  background-color:#EF1F65;
+  font-family: Arial, sans-serif;
+}
+
+.album {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo1 img {
+  width:"60"
+}
+.photo2 img {
+  width:"60"
+}
+.photo3 img {
+  width:"60"
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.grid-item {
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
